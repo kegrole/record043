@@ -1,0 +1,8 @@
+{"ts":"2026-11-14T08:00:01Z","level":"info","msg":"user login","password":"Sup3rSecret!","token":"tok_abcdef123456"}
+{"ts":"2026-11-14T08:00:02Z","level":"info","msg":"api request","authorization":"Bearer abcdef1234567890","cookie":"session=xyz987654321"}
+{"ts":"2026-11-14T08:00:03Z","level":"info","msg":"profile update","user":{"name":"carol","id_card":"110101199003077799"}}
+{"ts":"2026-11-14T08:00:04Z","level":"info","msg":"bulk import","items":[{"sku":"a1","password":"BatchPass99"},{"sku":"b2","note":"ok"}]}
+ts=2026-11-14T08:00:05Z level=info msg="contact sync" email=alice.wonderland@example.com
+{"ts":"2026-11-14T08:00:06Z","level":"info","msg":"sms send","phone":13812345678}
+{"ts":"2026-11-14T08:00:07Z","level":"info","msg":"heartbeat ok"}
+ts=2026-11-14T08:00:08Z level=info msg="health check ok"

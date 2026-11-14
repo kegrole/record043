@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {"path": "**.password", "method": "keep"},
+    {"path": "**.passwd", "method": "keep"},
+    {"path": "**.token", "method": "keep"},
+    {"path": "**.access_token", "method": "hash"},
+    {"path": "**.authorization", "method": "replace"},
+    {"path": "**.cookie", "method": "replace"},
+    {"path": "**.secret", "method": "hash"},
+    {"path": "**.id_card", "method": "keep"},
+    {"path": "**.phone", "method": "replace"},
+    {"path": "**.email", "method": "hash"}
+  ]
+}
